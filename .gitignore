@@ -1,0 +1,67 @@
+# Arduino IDE build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.eep
+*.core
+*.o
+*.d
+*.a
+
+# Arduino IDE preferences and cache
+.arduino/
+.arduinoIDE/
+build/
+preproc/
+
+# ESP32 specific
+.pio/
+.pioenvs/
+.piolibdeps/
+sdkconfig.old
+
+# Compiled libraries
+libraries/
+
+# IDE specific files
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets and credentials (important for WiFi passwords, API keys, etc.)
+secrets.h
+credentials.h
+config_local.h
+wifi_credentials.h
